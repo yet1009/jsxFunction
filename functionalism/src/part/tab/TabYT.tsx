@@ -28,7 +28,6 @@ const Tab = () => {
     // useEffect(() => {}, [])
 
     const ttl = _.reduce(tabObj, (_tot: object[], _cur: {[key: string]: any}, idx:number) => {
-
         const obj:{ [key:string]: any } = {}
         let keys:string[] = Object.keys(_cur).filter((item) => item !== 'conts');
 
